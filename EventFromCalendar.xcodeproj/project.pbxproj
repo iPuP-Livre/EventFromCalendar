@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0ADCB5F151BD0D900C06B91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ADCB5E151BD0D900C06B91 /* UIKit.framework */; };
+		E0ADCB61151BD0D900C06B91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ADCB60151BD0D900C06B91 /* Foundation.framework */; };
+		E0ADCB63151BD0D900C06B91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ADCB62151BD0D900C06B91 /* CoreGraphics.framework */; };
+		E0ADCB69151BD0D900C06B91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0ADCB67151BD0D900C06B91 /* InfoPlist.strings */; };
+		E0ADCB6B151BD0D900C06B91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0ADCB6A151BD0D900C06B91 /* main.m */; };
+		E0ADCB6F151BD0D900C06B91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0ADCB6E151BD0D900C06B91 /* AppDelegate.m */; };
+		E0ADCB72151BD0D900C06B91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0ADCB71151BD0D900C06B91 /* ViewController.m */; };
+		E0ADCB75151BD0D900C06B91 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0ADCB73151BD0D900C06B91 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E0ADCB5A151BD0D900C06B91 /* EventFromCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventFromCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0ADCB5E151BD0D900C06B91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0ADCB60151BD0D900C06B91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0ADCB62151BD0D900C06B91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0ADCB66151BD0D900C06B91 /* EventFromCalendar-Info.plist */ = {isa = PBXFileReference; path = "EventFromCalendar-Info.plist"; sourceTree = "<group>"; };
+		E0ADCB68151BD0D900C06B91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0ADCB6A151BD0D900C06B91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0ADCB6C151BD0D900C06B91 /* EventFromCalendar-Prefix.pch */ = {isa = PBXFileReference; path = "EventFromCalendar-Prefix.pch"; sourceTree = "<group>"; };
+		E0ADCB6D151BD0D900C06B91 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0ADCB6E151BD0D900C06B91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0ADCB70151BD0D900C06B91 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E0ADCB71151BD0D900C06B91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0ADCB74151BD0D900C06B91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0ADCB57151BD0D900C06B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0ADCB5F151BD0D900C06B91 /* UIKit.framework in Frameworks */,
+				E0ADCB61151BD0D900C06B91 /* Foundation.framework in Frameworks */,
+				E0ADCB63151BD0D900C06B91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0ADCB4F151BD0D900C06B91 = {
+			isa = PBXGroup;
+			children = (
+				E0ADCB64151BD0D900C06B91 /* EventFromCalendar */,
+				E0ADCB5D151BD0D900C06B91 /* Frameworks */,
+				E0ADCB5B151BD0D900C06B91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0ADCB5B151BD0D900C06B91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0ADCB5A151BD0D900C06B91 /* EventFromCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0ADCB5D151BD0D900C06B91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0ADCB5E151BD0D900C06B91 /* UIKit.framework */,
+				E0ADCB60151BD0D900C06B91 /* Foundation.framework */,
+				E0ADCB62151BD0D900C06B91 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0ADCB64151BD0D900C06B91 /* EventFromCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				E0ADCB6D151BD0D900C06B91 /* AppDelegate.h */,
+				E0ADCB6E151BD0D900C06B91 /* AppDelegate.m */,
+				E0ADCB70151BD0D900C06B91 /* ViewController.h */,
+				E0ADCB71151BD0D900C06B91 /* ViewController.m */,
+				E0ADCB73151BD0D900C06B91 /* ViewController.xib */,
+				E0ADCB65151BD0D900C06B91 /* Supporting Files */,
+			);
+			path = EventFromCalendar;
+			sourceTree = "<group>";
+		};
+		E0ADCB65151BD0D900C06B91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0ADCB66151BD0D900C06B91 /* EventFromCalendar-Info.plist */,
+				E0ADCB67151BD0D900C06B91 /* InfoPlist.strings */,
+				E0ADCB6A151BD0D900C06B91 /* main.m */,
+				E0ADCB6C151BD0D900C06B91 /* EventFromCalendar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0ADCB59151BD0D900C06B91 /* EventFromCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0ADCB78151BD0D900C06B91 /* Build configuration list for PBXNativeTarget "EventFromCalendar" */;
+			buildPhases = (
+				E0ADCB56151BD0D900C06B91 /* Sources */,
+				E0ADCB57151BD0D900C06B91 /* Frameworks */,
+				E0ADCB58151BD0D900C06B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EventFromCalendar;
+			productName = EventFromCalendar;
+			productReference = E0ADCB5A151BD0D900C06B91 /* EventFromCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0ADCB51151BD0D900C06B91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E0ADCB54151BD0D900C06B91 /* Build configuration list for PBXProject "EventFromCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0ADCB4F151BD0D900C06B91;
+			productRefGroup = E0ADCB5B151BD0D900C06B91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0ADCB59151BD0D900C06B91 /* EventFromCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0ADCB58151BD0D900C06B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0ADCB69151BD0D900C06B91 /* InfoPlist.strings in Resources */,
+				E0ADCB75151BD0D900C06B91 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0ADCB56151BD0D900C06B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0ADCB6B151BD0D900C06B91 /* main.m in Sources */,
+				E0ADCB6F151BD0D900C06B91 /* AppDelegate.m in Sources */,
+				E0ADCB72151BD0D900C06B91 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0ADCB67151BD0D900C06B91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0ADCB68151BD0D900C06B91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E0ADCB73151BD0D900C06B91 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0ADCB74151BD0D900C06B91 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0ADCB76151BD0D900C06B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0ADCB77151BD0D900C06B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0ADCB79151BD0D900C06B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventFromCalendar/EventFromCalendar-Prefix.pch";
+				INFOPLIST_FILE = "EventFromCalendar/EventFromCalendar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E0ADCB7A151BD0D900C06B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventFromCalendar/EventFromCalendar-Prefix.pch";
+				INFOPLIST_FILE = "EventFromCalendar/EventFromCalendar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0ADCB54151BD0D900C06B91 /* Build configuration list for PBXProject "EventFromCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0ADCB76151BD0D900C06B91 /* Debug */,
+				E0ADCB77151BD0D900C06B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0ADCB78151BD0D900C06B91 /* Build configuration list for PBXNativeTarget "EventFromCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0ADCB79151BD0D900C06B91 /* Debug */,
+				E0ADCB7A151BD0D900C06B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0ADCB51151BD0D900C06B91 /* Project object */;
+}
